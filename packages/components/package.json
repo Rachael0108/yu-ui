@@ -1,0 +1,23 @@
+{
+  "name": "yy-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "vite build",
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "yy-ui",
+    "vue3组件库"
+  ],
+  "author": "jo-march",
+  "license": "MIT",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "@yy-ui/utils": "workspace:^1.0.0"
+  }
+}
