@@ -14,7 +14,7 @@
     "yy-ui",
     "vue3组件库"
   ],
-  "author": "jo-march",
+  "author": "jo_march",
   "license": "MIT",
   "typings": "lib/index.d.ts",
   "dependencies": {
