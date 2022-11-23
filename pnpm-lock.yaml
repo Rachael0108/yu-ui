@@ -107,9 +107,9 @@ importers:
 
   packages/components:
     specifiers:
-      '@yy-ui/utils': workspace:^1.0.0
+      '@yying-ui/utils': workspace:^1.0.0
     dependencies:
-      '@yy-ui/utils': link:../utils
+      '@yying-ui/utils': link:../utils
 
   packages/utils:
     specifiers: {}

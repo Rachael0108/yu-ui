@@ -17,6 +17,6 @@
   "license": "MIT",
   "typings": "lib/index.d.ts",
   "dependencies": {
-    "@yy-ui/utils": "workspace:^1.0.0"
+    "@yying-ui/utils": "workspace:^1.0.0"
   }
 }
