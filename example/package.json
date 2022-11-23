@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@yy-ui/utils": "workspace:^1.0.0",
     "yy-ui": "workspace:^1.0.0"
   }
 }

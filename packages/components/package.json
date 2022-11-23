@@ -1,6 +1,6 @@
 {
-  "name": "yying-ui",
-  "version": "1.0.1",
+  "name": "yy-ui",
+  "version": "1.0.2",
   "description": "",
   "main": "index.ts",
   "scripts": {
