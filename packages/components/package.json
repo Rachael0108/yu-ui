@@ -1,5 +1,5 @@
 {
-  "name": "yy-ui",
+  "name": "yying-ui",
   "version": "1.1.2",
   "description": "",
   "main": "index.ts",
@@ -11,7 +11,7 @@
     "lib"
   ],
   "keywords": [
-    "yy-ui"
+    "yying-ui"
   ],
   "author": "jo_march",
   "license": "MIT",
