@@ -1,6 +1,6 @@
 {
   "name": "yuying-ui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -18,5 +18,8 @@
   "typings": "lib/index.d.ts",
   "dependencies": {
     "@yying-ui/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "unplugin-vue-define-options": "^0.12.8"
   }
 }

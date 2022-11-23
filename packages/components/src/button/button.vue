@@ -1,8 +1,8 @@
 <!-- button.vue -->
 <template>
-  <button class="k-button" :class="styleClass">
+  <button class="y-button" :class="styleClass">
     <Icon v-if="iconFont.iconName && iconFont.position != 'right'" :name="iconFont.iconName" />
-    <span class="k-button-text" v-if="slots.default">
+    <span class="y-button-text" v-if="slots.default">
             <slot />
         </span>
     <Icon v-if="iconFont.position == 'right' && iconFont.iconName" :name="iconFont.iconName" />
@@ -21,11 +21,11 @@ export default defineComponent({
   setup(props) {
     const styleClass = computed(() => {
       return {
-        [`k-button--${props.type}`]: props.type,
+        [`y-button--${props.type}`]: props.type,
         'is-plain': props.plain,
         'is-round': props.round,
         'is-disabled': props.disabled,
-        [`k-button--${props.size}`]: props.size,
+        [`y-button--${props.size}`]: props.size,
       }
     })
 
