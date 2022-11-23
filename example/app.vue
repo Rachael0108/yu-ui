@@ -4,5 +4,5 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { Button } from 'yy-ui';
+import { Button } from 'yuying-ui'
 </script>

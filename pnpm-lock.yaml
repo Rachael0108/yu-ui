@@ -99,6 +99,16 @@ importers:
       vite-plugin-dts: registry.npmmirror.com/vite-plugin-dts/1.7.1_rollup@2.79.1+vite@3.2.4
       vue: registry.npmmirror.com/vue/3.2.36
 
+  example:
+    specifiers:
+      '@yying-ui/utils': workspace:^1.0.0
+      kitty-ui: ^4.19.2
+      yuying-ui: workspace:^1.0.1
+    dependencies:
+      '@yying-ui/utils': link:../packages/utils
+      kitty-ui: 4.19.2
+      yuying-ui: link:..
+
   packages/components:
     specifiers:
       '@yying-ui/utils': workspace:^1.0.0
@@ -128,6 +138,10 @@ packages:
     os: [linux]
     requiresBuild: true
     optional: true
+
+  /@kitty-ui/utils/2.0.4:
+    resolution: {integrity: sha512-dbk0nGfFjkQmYcANH8/zGC4yk7ibZhtLOtGg3oAWzaiM8AIae6qg5hOX08p9MCZ95fjS91ZwDFf8vkzWDpPbQg==}
+    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -485,6 +499,12 @@ packages:
     resolution: {integrity: sha512-ojtSU++zLJ3jQG9bAYjg94w+/DOJtRyD7nPaerMFrBhmdVmiV5/exYH5t4uHga4G/95nT6hr1OJoKIFbYbrW5w==}
     engines: {node: '>=12.20'}
     dev: true
+
+  /kitty-ui/4.19.2:
+    resolution: {integrity: sha512-qyd+mgB4z4tI51uy5eUcyc2FGPRtHYZAxiuCDLoYNPgWdLrS3a5fw2YVBQGCxFLYfzBvnkgOrRaTmhV2Wi8YRw==}
+    dependencies:
+      '@kitty-ui/utils': 2.0.4
+    dev: false
 
   /make-dir/2.1.0:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}

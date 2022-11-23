@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yying-ui/utils": "workspace:^1.0.0"
+    "@yying-ui/utils": "workspace:^1.0.0",
+    "kitty-ui": "^4.19.2"
   }
 }
